@@ -1,0 +1,114 @@
+[
+  {
+    "id": 1,
+    "question": "What does Sun Tzu say about knowing your enemy?",
+    "expects_retrieval": true,
+    "expects_relevant_match": true,
+    "notes": "Core Art of War topic, should score high"
+  },
+  {
+    "id": 2,
+    "question": "According to the document, how does Sun Tzu describe the use of spies?",
+    "expects_retrieval": true,
+    "expects_relevant_match": true,
+    "notes": "Specific, well-covered topic"
+  },
+  {
+    "id": 3,
+    "question": "What is the difference between cryptocurrency and blockchain?",
+    "expects_retrieval": true,
+    "expects_relevant_match": true,
+    "notes": "Core crypto doc topic"
+  },
+  {
+    "id": 4,
+    "question": "What is proof of stake?",
+    "expects_retrieval": true,
+    "expects_relevant_match": true,
+    "notes": "Should be covered in crypto/blockchain PDFs"
+  },
+  {
+    "id": 5,
+    "question": "What does Sun Tzu say about terrain and its effect on battle?",
+    "expects_retrieval": true,
+    "expects_relevant_match": true,
+    "notes": "Classic Art of War chapter topic"
+  },
+  {
+    "id": 6,
+    "question": "Hi, how are you doing today?",
+    "expects_retrieval": false,
+    "expects_relevant_match": null,
+    "notes": "Small talk, router should skip retrieval entirely"
+  },
+  {
+    "id": 7,
+    "question": "What is the capital of France?",
+    "expects_retrieval": false,
+    "expects_relevant_match": null,
+    "notes": "Unrelated general knowledge"
+  },
+  {
+    "id": 8,
+    "question": "What did I just ask you?",
+    "expects_retrieval": false,
+    "expects_relevant_match": null,
+    "notes": "Conversation-referencing question"
+  },
+  {
+    "id": 9,
+    "question": "What does Sun Tzu say about using cyberattacks and computer networks?",
+    "expects_retrieval": true,
+    "expects_relevant_match": false,
+    "notes": "Sounds document-related but topic isn't covered - should retrieve but score low/be flagged"
+  },
+  {
+    "id": 10,
+    "question": "According to the document, what is Sun Tzu's opinion on quantum physics?",
+    "expects_retrieval": true,
+    "expects_relevant_match": false,
+    "notes": "Same pattern as #9, different irrelevant topic"
+  },
+  {
+    "id": 11,
+    "question": "According to the crypto document, what does it say about astrology and horoscopes?",
+    "expects_retrieval": true,
+    "expects_relevant_match": false,
+    "notes": "Irrelevant topic forced into the crypto doc's domain"
+  },
+  {
+    "id": 12,
+    "question": "Can you summarize what the Art of War document covers overall?",
+    "expects_retrieval": true,
+    "expects_relevant_match": true,
+    "notes": "Broad summary question, should still retrieve successfully"
+  },
+  {
+    "id": 13,
+    "question": "Explain that last point in simpler terms.",
+    "expects_retrieval": false,
+    "expects_relevant_match": null,
+    "notes": "Follow-up/clarification question, no new document lookup needed"
+  },
+  {
+    "id": 14,
+    "question": "What does Sun Tzu say about the cost of prolonged warfare?",
+    "expects_retrieval": true,
+    "expects_relevant_match": true,
+    "notes": "Specific, well-covered chapter (Waging War)"
+  },
+  {
+    "id": 15,
+    "question": "Is Bitcoin mentioned in either document, and if so what does it say?",
+    "expects_retrieval": true,
+    "expects_relevant_match": true,
+    "notes": "Should hit the crypto document specifically"
+  },
+  {
+    "id": 16,
+    "question": "What's 2 + 2?",
+    "expects_retrieval": false,
+    "expects_relevant_match": null,
+    "notes": "Trivial general knowledge, no document needed"
+  }
+]
